@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('r3.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-color: #4caf4f;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    position: fixed;
+
+    text-align: center;
+    top: 0;
+    /* Fixed at the top */
+    z-index: 1000;
+    /* Ensures it appears above other elements */
+}
+
+footer {
+    text-align: center;
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 7px;
+}
+
+h1 {
+    color: #333;
+}
+
+.container {
+    margin: 80px auto 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 10px;
+}
+
+button:hover {
+    background-color: #047d08;
+}
+
+form {
+    text-align: left;
+    padding: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.filter-buttons {
+    margin-top: 10px;
+}
